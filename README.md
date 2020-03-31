@@ -1,0 +1,2 @@
+# ntpd
+install ntpd and 

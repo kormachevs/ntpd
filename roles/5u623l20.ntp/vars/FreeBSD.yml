@@ -1,0 +1,4 @@
+---
+ntp_daemon: ntpd
+drift_file: /var/db/ntp/ntpd.drift
+leap_file: /var/db/ntpd.leap-seconds.list

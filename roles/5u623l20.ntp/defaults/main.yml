@@ -1,0 +1,7 @@
+---
+ntp_enabled: true
+ntp_pools: []
+ntp_restrict: []
+ntp_servers: []
+ntp_timezone: Etc/UTC
+ntp_package: ntp

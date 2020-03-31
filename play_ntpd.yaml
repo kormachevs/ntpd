@@ -1,0 +1,14 @@
+---
+# install role:
+# ansible-galaxy install -p ./roles 5u623l20.ntp
+- name: install ntdp or change ntp-server
+  hosts: all
+  become: true
+  become_method: sudo
+  roles:
+  - 5u623l20.ntp
+  vars:
+    ntp_timezone: Europe/Moscow
+    ntp_pools:
+      - 0.ru.pool.ntp.org
+      - 1.ru.pool.ntp.org

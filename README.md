@@ -1,8 +1,14 @@
 # ntpd
-Роль просмотрел, аномалий не нашел.
+Роль просмотрел, странностей не нашел.
 
-Установка роли с помощью ansible-galaxy:
+Установка роли:
 
-	ansible-galaxy install -p ./roles 5u623l20.ntp
+``` git clone https://github.com/kormachevs/ntpd.git
+
+    cd ./ntpd
+
+# Поправить hosts, заполнить своими данными
+
+    ansible-playbook play_ntpd.yaml
 
 Тестирование роли на OS: Ubuntu 16.04, Ubuntu 18.04

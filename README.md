@@ -3,7 +3,7 @@
 
 Установка роли:
 
-``` git clone https://github.com/kormachevs/ntpd.git
+    git clone https://github.com/kormachevs/ntpd.git
 
     cd ./ntpd
 

@@ -7,7 +7,7 @@
 
     cd ./ntpd
 
-# Поправить hosts, заполнить своими данными
+#### Поправить hosts, заполнить своими данными
 
     ansible-playbook play_ntpd.yaml
 

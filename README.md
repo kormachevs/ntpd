@@ -11,7 +11,7 @@
 
     ansible-playbook play_ntpd.yaml
 
-### Переменные, которые можно передать как EXTRA_VARS, или поправить в playbook-е.
+#### Переменные, которые можно передать как EXTRA_VARS, или поправить в playbook-е.
 
     ntp_timezone: Europe/Moscow
     ntp_pools:
